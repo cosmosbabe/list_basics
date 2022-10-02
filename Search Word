@@ -1,0 +1,12 @@
+number = int(input())
+word = input()
+
+list = []
+list_with_word = []
+for i in range(number):
+    texts = input()
+    list.append(texts)
+    if word in texts:
+        list_with_word.append(texts)
+print(list)
+print(list_with_word)
