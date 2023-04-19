@@ -1,12 +1,12 @@
 number = int(input())
 word = input()
 
-list_old = []
+list_previous = []
 list_with_word = []
 for i in range(number):
     texts = input()
     list.append(texts)
     if word in texts:
         list_with_word.append(texts)
-print(list_old)
+print(list_previous)
 print(list_with_word)
